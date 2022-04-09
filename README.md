@@ -2,6 +2,20 @@
 
 Simple Python script that grabs all the email hidden and displayed in a website. The program uses the `requests` module to send a GET request on a website. Then, it will use a regex pattern searching in the HTML response to match all the email in the website. 
 
+![](media/example.png)
+
+## Setup
+
+- Download this repository on your local machine. 
+
+- (Optional) Setup a virtual machine.
+
+- Install dependencies
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
 ## Pattern Searching
 
 The program uses the following regex:
